@@ -22,6 +22,9 @@ async def on_message(message):
     if message.author == client.user:
         return
     
+    if message.content == "$restart$":
+        pass
+        return    
     try:
         com = getattr(botcommands, message.content.split()[0][1:])
         com(message)

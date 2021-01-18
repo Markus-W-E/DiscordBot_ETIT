@@ -1,2 +1,2 @@
-# DiscordBot_ETIT
+# ETIT_Bot
 Discord Bot on ETIT-Server

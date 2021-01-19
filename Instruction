@@ -1,0 +1,19 @@
+Anleitung für das programmieren eines Befehls für den ETIT Bot
+
+
+Kurze Info zu Python:
+  Befehle müssen nicht per Semikolon getrennt werden, neue Zeile heißt neuer Befehl.
+  Befehlsblöcke können nicht durch {geschweifte Klammern} gesetzt werden.
+  ein Befehlsblock (z.B. für Schleifen oder if-statements) wird durch einen Doppelpunkt gestartet und durch Einrückung markiert.
+  Variablen haben keinen festgelegten Typ und müssen nicht initialisiert werden. Es muss aber ein Wert zugewiesen sein, bevor auf sie zugegriffen werden kann.
+  Einzeilige Kommentare werden durch # markiert, mehrzeilige durch """ an Anfang und Ende.
+  
+
+Wichtige Befehle/Attribute im Discord-Python Modul:
+  message.content  #der inhalt einer Nachricht als String
+  message.author  #der Verfasser einer Nachricht
+  message.channel  #der Kanal, in dem eine Nachricht versendet wurde
+  message.guild  #der Server, auf dem eine Nachricht versendet wurde
+
+  channel.send("String")  #sendet "String" in den gegebenen channel
+  

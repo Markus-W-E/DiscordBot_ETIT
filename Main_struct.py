@@ -58,9 +58,9 @@ async def on_message(message):      #the following code gets executed every time
             await message.delete()
             await ans.delete()
 
-            child = os.system("python3 -m py_compile robertsbot.py")        #check if the latest save will compile
+            child = os.system("python3 -m py_compile ETIT-Bot.py")        #check if the latest save will compile
             if child == 0:                                                  #if yes, start it 
-                os.system("nohup python3 robertsbot.py &")
+                os.system("nohup python3 ETIT-Bot.py &")
                 ans = await c.send(str(processid)+": restarted, now killing myself")
                 await asyncio.sleep(2)
                 await ans.delete()
